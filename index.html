@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#0f0d20" name="theme-color"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="Nur Abdullah Kholiq — Pharmacy Student &amp; Digital Content Creator. Editorial personal portfolio combining pharmacy, digital content, communication, and creative design." name="description"/>
+<title>Nur Abdullah Kholiq — Pharmacy Student &amp; Digital Content Creator</title>
+<meta content="Nur Abdullah Kholiq — Pharmacy Student &amp; Digital Content Creator" property="og:title"/>
+<meta content="Editorial portfolio — Pharmacy × Digital Creative." property="og:description"/>
+<meta content="website" property="og:type"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#0f0d20;--bg2:#17132d;--bg3:#211a3b;--cream:#e8dcc5;--white:#f5f2ea;--gold:#d9a441;--muted:#aaa3b5;--line:rgba(232,220,197,.16);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Manrope',Arial,sans-serif;--ease:cubic-bezier(.2,.75,.2,1)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--white);font-family:var(--sans);line-height:1.6;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}img{max-width:100%;display:block}::selection{background:var(--gold);color:#0f0d20}.container{width:min(1240px,92vw);margin:auto}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800}.eyebrow:before{content:'';width:42px;height:1px;background:var(--gold)}.section{padding:9rem 0;position:relative}.section-head{display:grid;grid-template-columns:110px 1fr;gap:30px;margin-bottom:4rem;align-items:start}.section-no{font-size:.7rem;letter-spacing:.18em;color:var(--muted);padding-top:.5rem}h2.section-title{font-family:var(--serif);font-size:clamp(3.2rem,7vw,7.8rem);line-height:.82;font-weight:600;letter-spacing:-.035em}.lead{color:var(--muted);font-size:1rem;line-height:1.95;max-width:700px}.gold{color:var(--gold)}
+/* nav */
+.nav{position:fixed;top:0;left:0;width:100%;z-index:1000;border-bottom:1px solid rgba(232,220,197,.08);background:rgba(15,13,32,.78);backdrop-filter:blur(18px)}.nav-inner{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:baseline;gap:12px;font-weight:800;letter-spacing:.08em}.brand strong{font-family:var(--serif);font-size:1.45rem;letter-spacing:.01em}.brand span{font-size:.58rem;color:var(--gold);letter-spacing:.16em}.nav-links{display:flex;gap:1.6rem;list-style:none}.nav-links a{font-size:.67rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);transition:.3s}.nav-links a:hover,.nav-links a.active{color:var(--gold)}.menu{display:none;background:none;border:0;color:var(--white);font-size:1.5rem}
+/* hero */
+.hero{min-height:100svh;position:relative;overflow:hidden;padding-top:78px;display:flex;align-items:center;background:radial-gradient(circle at 78% 50%,rgba(217,164,65,.08),transparent 24%),radial-gradient(circle at 62% 55%,rgba(111,70,168,.18),transparent 30%),var(--bg)}.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,13,32,.9) 0%,rgba(15,13,32,.38) 52%,rgba(15,13,32,.12) 100%);pointer-events:none}.hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;min-height:calc(100svh - 78px);align-items:center}.hero-copy{padding:5rem 0 5rem;position:relative;z-index:3}.hero-kicker{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:800;margin-bottom:1.8rem}.hero-title{font-family:var(--serif);font-size:clamp(5rem,10vw,10.5rem);line-height:.73;letter-spacing:-.045em;font-weight:600;position:relative;z-index:2}.hero-title span{display:block}.hero-title .last{font-style:italic;color:var(--cream);padding-left:8vw}.hero-role{margin-top:2rem;border-left:1px solid var(--gold);padding-left:1.2rem;display:grid;gap:.3rem;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.hero-role strong{color:var(--white)}.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.3rem}.btn{border:1px solid var(--line);padding:.78rem 1.1rem;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;transition:.35s;display:inline-flex;align-items:center;gap:.7rem}.btn.primary{background:var(--gold);color:#0f0d20;border-color:var(--gold);font-weight:800}.btn:hover{transform:translateY(-3px);border-color:var(--gold);color:var(--gold)}.btn.primary:hover{color:#0f0d20;filter:brightness(1.06)}.hero-meta{display:flex;gap:2rem;margin-top:4rem;color:var(--muted);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase}.hero-meta b{display:block;color:var(--cream);font-size:.78rem;margin-top:.2rem}.hero-art{height:calc(100svh - 78px);position:relative;display:flex;align-items:flex-end;justify-content:center}.hero-art:before{content:'PHARMACY';position:absolute;right:-4vw;top:13%;font-family:var(--serif);font-size:clamp(5rem,12vw,12rem);line-height:.7;color:rgba(232,220,197,.045);white-space:nowrap;transform:rotate(90deg);transform-origin:center}.hero-art:after{content:'DIGITAL';position:absolute;right:-2vw;bottom:19%;font-family:var(--serif);font-size:clamp(5rem,11vw,11rem);color:rgba(217,164,65,.055);white-space:nowrap;transform:rotate(90deg);transform-origin:center}.portrait-wrap{width:min(570px,95%);height:84%;position:relative;display:flex;align-items:flex-end;justify-content:center;transform:translateY(3%)}.portrait-wrap:before{content:'';position:absolute;width:75%;height:65%;border-radius:50%;background:radial-gradient(circle,rgba(217,164,65,.28),rgba(117,61,168,.2) 35%,transparent 70%);filter:blur(24px);bottom:10%;right:9%}.portrait-wrap:after{content:'';position:absolute;bottom:5%;width:62%;height:13%;background:radial-gradient(ellipse,rgba(217,164,65,.3),transparent 68%);filter:blur(12px)}.hero-person{position:relative;z-index:2;width:95%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 24px 28px rgba(0,0,0,.45)) drop-shadow(0 0 22px rgba(217,164,65,.16))}.scroll-cue{position:absolute;right:4vw;bottom:2.3rem;z-index:4;color:var(--muted);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;writing-mode:vertical-rl;display:flex;gap:.8rem;align-items:center}.scroll-cue:after{content:'';height:55px;width:1px;background:var(--gold)}
+/* about */
+.about-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:7vw;align-items:center}.about-photo{position:relative;min-height:650px;background:linear-gradient(135deg,#e8dcc5,#cfc4ae);overflow:hidden}.about-photo:before{content:'ABOUT';position:absolute;left:-1rem;bottom:2rem;font-family:var(--serif);font-size:clamp(6rem,11vw,11rem);color:rgba(15,13,32,.1);line-height:.7;z-index:1}.about-photo:after{content:'';position:absolute;inset:9%;border:1px solid rgba(15,13,32,.15);z-index:2}.about-photo img{width:100%;height:100%;object-fit:contain;object-position:center bottom;position:relative;z-index:3;filter:drop-shadow(0 18px 25px rgba(0,0,0,.2))}.about-copy .eyebrow{margin-bottom:1.4rem}.about-copy h3{font-family:var(--serif);font-size:clamp(2.8rem,5vw,5.4rem);line-height:.9;margin-bottom:1.8rem}.about-copy .lead{max-width:640px}.about-tags{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:2rem}.tag{border:1px solid var(--line);padding:.45rem .7rem;color:var(--cream);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase}
+/* education */
+.timeline{position:relative;margin-left:110px;border-left:1px solid var(--line)}.edu-item{display:grid;grid-template-columns:120px 1fr;gap:2.5rem;padding:0 0 4rem 2.5rem;position:relative}.edu-item:before{content:'';position:absolute;left:-5px;top:8px;width:9px;height:9px;border:1px solid var(--gold);background:var(--bg);transform:rotate(45deg)}.edu-year{font-family:var(--serif);font-size:2.3rem;color:var(--gold);line-height:1}.edu-school{font-family:var(--serif);font-size:2.5rem;line-height:1;margin-bottom:.7rem}.edu-copy{color:var(--muted);max-width:760px;font-size:.92rem}
+/* skills */
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.skill{padding:2.3rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:310px;position:relative;transition:.35s}.skill:hover{background:rgba(232,220,197,.035)}.skill-num{font-size:.62rem;color:var(--muted);letter-spacing:.15em}.skill-icon{margin:2.4rem 0 1.2rem;width:46px;height:46px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold)}.skill-icon svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.5}.skill h3{font-family:var(--serif);font-size:2.1rem;line-height:.95;margin-bottom:1rem}.skill ul{list-style:none;color:var(--muted);font-size:.8rem;display:grid;gap:.45rem}.skill li:before{content:'—';color:var(--gold);margin-right:.45rem}
+/* experience */
+.exp-layout{display:grid;grid-template-columns:260px 1fr;gap:4rem}.exp-tabs{display:flex;flex-direction:column;align-items:stretch;border-left:1px solid var(--line)}.exp-tab{background:none;border:0;border-left:1px solid transparent;color:var(--muted);padding:1rem 1.2rem;text-align:left;cursor:pointer;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;transition:.3s}.exp-tab:hover,.exp-tab.active{color:var(--gold);border-left-color:var(--gold);background:rgba(217,164,65,.04)}.exp-panel{min-height:420px;position:relative}.exp-content{display:none;animation:fadeUp .45s var(--ease)}.exp-content.active{display:grid;grid-template-columns:.72fr 1.28fr;gap:3rem}.exp-visual{min-height:390px;position:relative;background:linear-gradient(145deg,#1d1837,#0b0916);border:1px solid var(--line);overflow:hidden}.exp-visual img{width:100%;height:100%;object-fit:cover;opacity:.9}.exp-visual:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(15,13,32,.82))}.exp-visual-label{position:absolute;left:1.3rem;bottom:1.1rem;z-index:2;font-size:.65rem;letter-spacing:.14em;color:var(--cream);text-transform:uppercase}.exp-copy h3{font-family:var(--serif);font-size:clamp(2.6rem,4vw,4.8rem);line-height:.85;margin-bottom:.5rem}.exp-company{color:var(--gold);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}.exp-date{display:inline-block;margin:1rem 0;color:var(--muted);font-size:.68rem;border-bottom:1px solid var(--gold);padding-bottom:.3rem}.exp-list{list-style:none;display:grid;gap:.7rem;color:var(--muted);font-size:.86rem;max-width:650px}.exp-list li:before{content:'↳';color:var(--gold);margin-right:.55rem}.proof{margin-top:1.8rem;padding-top:1.2rem;border-top:1px solid var(--line)}.proof span{font-size:.65rem;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}.proof-links{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.7rem}.proof-links a{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cream);border-bottom:1px solid var(--gold);padding-bottom:.2rem}
+/* projects */
+.project-feature{display:grid;grid-template-columns:1.35fr .65fr;min-height:580px;margin-bottom:2px;background:#17132d}.project-image{position:relative;overflow:hidden;min-height:580px}.project-image img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}.project-feature:hover .project-image img{transform:scale(1.035)}.project-image:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 45%,rgba(15,13,32,.25))}.project-feature-copy{padding:3.5rem;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid var(--line);border-left:0}.project-feature-copy .eyebrow{margin-bottom:auto}.project-feature-copy h3{font-family:var(--serif);font-size:clamp(3rem,5vw,6rem);line-height:.82;margin-bottom:1rem}.project-feature-copy p{color:var(--muted);font-size:.85rem;max-width:360px}.project-meta{display:flex;gap:1rem;margin-top:1.5rem;font-size:.62rem;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}.filter{display:flex;gap:1.4rem;flex-wrap:wrap;margin:2.2rem 0;border-bottom:1px solid var(--line);padding-bottom:1rem}.filter button{background:none;border:0;color:var(--muted);cursor:pointer;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;padding:.4rem 0}.filter button.active,.filter button:hover{color:var(--gold)}.projects-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:2px}.project{position:relative;overflow:hidden;border:1px solid var(--line);background:#17132d;min-height:300px;cursor:pointer}.project:nth-child(1){grid-column:span 7;min-height:460px}.project:nth-child(2){grid-column:span 5}.project:nth-child(3){grid-column:span 5}.project:nth-child(4){grid-column:span 7;min-height:420px}.project:nth-child(5){grid-column:span 4}.project:nth-child(6){grid-column:span 4}.project:nth-child(7){grid-column:span 4}.project img{width:100%;height:100%;object-fit:cover;transition:.7s var(--ease);opacity:.88}.project:hover img{transform:scale(1.04)}.project:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(15,13,32,.9) 100%)}.project-info{position:absolute;z-index:2;left:1.2rem;right:1.2rem;bottom:1.1rem}.project-info small{color:var(--gold);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase}.project-info h3{font-family:var(--serif);font-size:2rem;line-height:.9;margin-top:.2rem}.project-info p{font-size:.7rem;color:var(--muted);margin-top:.35rem}
+/* social */
+.social-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:5rem}.social-block h3{font-family:var(--serif);font-size:3rem;margin-bottom:1.3rem}.social-list{border-top:1px solid var(--line)}.social-item{display:grid;grid-template-columns:45px 1fr 25px;align-items:center;gap:1rem;padding:1.15rem 0;border-bottom:1px solid var(--line);transition:.3s}.social-item:hover{padding-left:.5rem;color:var(--gold)}.social-icon{width:34px;height:34px;display:grid;place-items:center;border:1px solid var(--line);font-size:.75rem}.social-name{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}.social-handle{font-size:.65rem;color:var(--muted);margin-top:.15rem}.social-arrow{transition:.3s}.social-item:hover .social-arrow{transform:translateX(5px);color:var(--gold)}.brand-socials{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:3rem}.brand-social{min-height:240px;border:1px solid var(--line);padding:1.4rem;position:relative;overflow:hidden;background:#17132d}.brand-social img{width:100%;height:150px;object-fit:contain;opacity:.8}.brand-social strong{position:absolute;left:1.2rem;bottom:1rem;font-family:var(--serif);font-size:1.8rem}
+/* contact */
+.contact{min-height:80vh;display:grid;grid-template-columns:1.15fr .85fr;gap:5rem;align-items:end;border-top:1px solid var(--line)}.contact-title{font-family:var(--serif);font-size:clamp(5rem,11vw,12rem);line-height:.68;letter-spacing:-.04em}.contact-title em{color:var(--gold)}.contact-info{border-top:1px solid var(--line)}.contact-row{display:grid;grid-template-columns:100px 1fr 25px;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--line);font-size:.75rem}.contact-row span:first-child{color:var(--muted);font-size:.62rem;letter-spacing:.13em;text-transform:uppercase}.contact-row a:hover{color:var(--gold)}.footer{padding:2rem 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1rem;color:var(--muted);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase}
+/* modal */
+.modal{position:fixed;inset:0;background:rgba(5,4,12,.88);backdrop-filter:blur(15px);display:grid;place-items:center;padding:1rem;opacity:0;pointer-events:none;transition:.3s;z-index:2000}.modal.open{opacity:1;pointer-events:auto}.modal-box{width:min(820px,94vw);background:#17132d;border:1px solid var(--gold);padding:3rem;position:relative}.modal-close{position:absolute;right:1rem;top:1rem;border:0;background:none;color:var(--cream);font-size:1.8rem;cursor:pointer}.modal-box .eyebrow{margin-bottom:1rem}.modal-box h3{font-family:var(--serif);font-size:4rem;line-height:.8;margin-bottom:1rem}.modal-box p{color:var(--muted);max-width:650px;margin-bottom:1.5rem}.modal-box a{color:var(--gold);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+/* reveal */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease)}.reveal.visible{opacity:1;transform:none}@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.cursor-dot,.cursor-ring{position:fixed;pointer-events:none;z-index:3000;display:none;transform:translate(-50%,-50%)}.cursor-dot{width:5px;height:5px;background:var(--gold);border-radius:50%}.cursor-ring{width:30px;height:30px;border:1px solid rgba(217,164,65,.6);border-radius:50%;transition:width .2s,height .2s}body.cursor-ready .cursor-dot,body.cursor-ready .cursor-ring{display:block}
+@media(max-width:900px){.nav-links{display:none;position:absolute;top:78px;left:0;right:0;background:rgba(15,13,32,.98);padding:1rem 4%;flex-direction:column;gap:1rem;border-bottom:1px solid var(--line)}.nav-links.open{display:flex}.menu{display:block}.hero-inner,.about-grid,.social-layout,.contact{grid-template-columns:1fr}.hero{min-height:auto}.hero-inner{min-height:auto;padding-top:3rem}.hero-copy{padding:4rem 0 2rem}.hero-art{height:65vh;min-height:500px}.hero-title{font-size:clamp(4.3rem,16vw,8rem)}.hero-title .last{padding-left:14vw}.hero-art:before,.hero-art:after{right:-12vw}.about-photo{min-height:600px;max-height:650px}.skills-grid{grid-template-columns:1fr 1fr}.exp-layout{grid-template-columns:1fr;gap:2rem}.exp-tabs{flex-direction:row;overflow:auto;border-left:0;border-bottom:1px solid var(--line)}.exp-tab{white-space:nowrap;border-left:0;border-bottom:1px solid transparent}.exp-tab:hover,.exp-tab.active{border-left:0;border-bottom-color:var(--gold)}.exp-content.active{grid-template-columns:1fr}.project-feature{grid-template-columns:1fr}.project-image{min-height:55vw}.project-feature-copy{border-left:1px solid var(--line);min-height:360px}.project:nth-child(n){grid-column:span 6;min-height:320px}.timeline{margin-left:20px}.section-head{grid-template-columns:55px 1fr}}
+@media(max-width:560px){.container{width:min(92vw,520px)}.section{padding:6.5rem 0}.section-head{gap:15px;margin-bottom:2.8rem}h2.section-title{font-size:clamp(3rem,15vw,5rem)}.hero-copy{padding-top:3rem}.hero-meta{gap:1.1rem;flex-wrap:wrap;margin-top:2.7rem}.hero-actions .btn{width:100%;justify-content:center}.hero-art{height:58vh;min-height:430px}.portrait-wrap{width:100%}.hero-person{width:100%}.about-photo{min-height:500px}.skills-grid{grid-template-columns:1fr}.skill{min-height:auto;padding:1.8rem}.edu-item{grid-template-columns:1fr;gap:.7rem;padding-left:1.5rem}.edu-school{font-size:2rem}.project:nth-child(n){grid-column:span 12;min-height:300px}.brand-socials{grid-template-columns:1fr}.contact-title{font-size:clamp(4.4rem,20vw,7rem)}.contact-row{grid-template-columns:75px 1fr 20px;font-size:.68rem}.footer{flex-direction:column}.modal-box{padding:2rem 1.3rem}.modal-box h3{font-size:3rem}.cursor-dot,.cursor-ring{display:none!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+/* ===== V2 POLISH — editorial refinement ===== */
+:root{
+  --gold-soft:#c9a15a;
+  --purple-glow:rgba(126,73,211,.34);
+  --purple-glow-soft:rgba(126,73,211,.16);
+}
+body{background:
+  radial-gradient(circle at 78% 8%,rgba(112,67,172,.08),transparent 24rem),
+  radial-gradient(circle at 12% 58%,rgba(217,164,65,.035),transparent 28rem),
+  var(--bg);
+}
+body:before{content:'';position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.18;background-image:linear-gradient(rgba(232,220,197,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(232,220,197,.025) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,black,transparent 80%)}
+.nav{background:rgba(10,8,20,.72);border-bottom-color:rgba(232,220,197,.12)}
+.nav-inner{height:76px}
+.nav-links a{position:relative}
+.nav-links a:after{content:'';position:absolute;left:0;right:100%;bottom:-8px;height:1px;background:var(--gold);transition:right .35s var(--ease)}
+.nav-links a:hover:after,.nav-links a.active:after{right:0}
+.hero{background:radial-gradient(circle at 72% 46%,rgba(111,70,168,.20),transparent 29%),radial-gradient(circle at 84% 72%,rgba(217,164,65,.07),transparent 22%),var(--bg)}
+.hero:before{content:'CREATIVE';position:absolute;left:33%;top:38%;font-family:var(--sans);font-weight:800;font-size:clamp(5rem,12vw,12rem);letter-spacing:-.08em;line-height:.75;color:transparent;-webkit-text-stroke:1px rgba(232,220,197,.035);transform:rotate(-90deg);transform-origin:center;white-space:nowrap;pointer-events:none}
+.hero-copy{max-width:720px}
+.hero-kicker{letter-spacing:.28em;margin-bottom:2rem}
+.hero-title{font-family:var(--sans);font-weight:800;font-size:clamp(4.7rem,8.2vw,9.3rem);line-height:.79;letter-spacing:-.075em;text-transform:uppercase}
+.hero-title .last{font-family:var(--serif);font-weight:600;font-style:italic;color:var(--cream);letter-spacing:-.05em;padding-left:5vw}
+.hero-role{border-left:1px solid var(--gold-soft);margin-top:2.2rem;padding-left:1.35rem}
+.hero-actions{margin-top:2.1rem}
+.btn{border-radius:0;min-height:44px;padding:.75rem 1.15rem;letter-spacing:.12em;font-size:.64rem}
+.btn.primary{background:var(--gold);color:#100d1d;border-color:var(--gold)}
+.btn.primary:hover{background:var(--cream);border-color:var(--cream);transform:translateY(-2px)}
+.btn:not(.primary){border-color:rgba(232,220,197,.25)}
+.hero-meta{margin-top:3rem;padding-top:1.25rem;border-top:1px solid var(--line);max-width:560px}
+.hero-art{isolation:isolate}
+.portrait-wrap{width:min(650px,100%);height:84%;transform:translateY(3%)}
+.portrait-wrap:before{width:78%;height:74%;background:radial-gradient(circle,rgba(123,67,213,.42),rgba(123,67,213,.16) 38%,transparent 70%);filter:blur(34px);bottom:8%;right:8%;z-index:-1}
+.portrait-wrap:after{width:64%;height:12%;background:radial-gradient(ellipse,rgba(217,164,65,.24),transparent 68%);filter:blur(15px);bottom:4%}
+.hero-person{filter:drop-shadow(0 28px 32px rgba(0,0,0,.5)) drop-shadow(0 0 14px rgba(126,73,211,.18));transform:translateZ(0);transition:transform .8s var(--ease),filter .8s var(--ease)}
+.hero-art:hover .hero-person{transform:translateY(-6px) scale(1.012);filter:drop-shadow(0 32px 38px rgba(0,0,0,.5)) drop-shadow(0 0 24px rgba(126,73,211,.28))}
+.hero-art:before{right:-2vw;top:16%;color:rgba(232,220,197,.035)}
+.hero-art:after{right:0;bottom:18%;color:rgba(217,164,65,.04)}
+.section{padding:8rem 0;border-top:1px solid rgba(232,220,197,.06)}
+.section-head{margin-bottom:3.4rem}
+.section-no{font-family:var(--serif);font-size:1rem;color:var(--gold-soft);letter-spacing:.08em}
+.section-title{font-family:var(--sans);font-weight:800;letter-spacing:-.06em;font-size:clamp(4rem,7.2vw,8rem);line-height:.78}
+.section-title i{font-family:var(--serif);font-weight:600;color:var(--cream)}
+.about-grid{gap:6vw}
+.about-photo{min-height:650px;background:radial-gradient(circle at 50% 58%,rgba(122,68,204,.25),transparent 40%),#17132d;border:1px solid rgba(232,220,197,.10)}
+.about-photo:before{color:rgba(232,220,197,.035);left:1rem}
+.about-photo:after{inset:6%;border-color:rgba(217,164,65,.20)}
+.about-photo img{filter:drop-shadow(0 24px 28px rgba(0,0,0,.42)) drop-shadow(0 0 16px rgba(126,73,211,.28));transition:transform .8s var(--ease),filter .8s var(--ease)}
+.about-photo:hover img{transform:scale(1.018) translateY(-4px);filter:drop-shadow(0 28px 32px rgba(0,0,0,.46)) drop-shadow(0 0 24px rgba(126,73,211,.34))}
+.about-copy h3{font-family:var(--sans);font-weight:700;letter-spacing:-.05em}
+.about-copy h3 i{font-family:var(--serif);font-weight:600;color:var(--cream)}
+.tag{border-radius:0;border-color:rgba(217,164,65,.25);background:rgba(217,164,65,.035)}
+.skills-grid{background:transparent;gap:0}
+.skill{background:rgba(23,19,45,.46);border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .35s var(--ease),transform .35s var(--ease)}
+.skill:hover{background:rgba(217,164,65,.035);transform:translateY(-3px)}
+.skill h3{font-family:var(--sans);letter-spacing:-.02em}
+.skill-icon{border-color:rgba(217,164,65,.35);color:var(--gold-soft);background:transparent}
+.exp-layout{gap:3.5rem}
+.exp-tabs{border-left-color:rgba(232,220,197,.12)}
+.exp-tab{padding:1.1rem 1.25rem}
+.exp-tab.active{background:linear-gradient(90deg,rgba(217,164,65,.08),transparent);font-weight:700}
+.exp-content.active{gap:3.5rem}
+.exp-visual{background:#111020;border-color:rgba(232,220,197,.12);box-shadow:inset 0 0 0 1px rgba(217,164,65,.03)}
+.exp-visual img{object-position:center;transition:transform .8s var(--ease),filter .8s var(--ease)}
+.exp-content.active:hover .exp-visual img{transform:scale(1.018)}
+.exp-copy h3{font-family:var(--sans);font-weight:700;letter-spacing:-.045em}
+.proof-links{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.25rem}
+.proof-links a{border:1px solid rgba(232,220,197,.15);padding:.65rem .8rem;font-size:.62rem;letter-spacing:.06em;transition:.3s}
+.proof-links a:hover{border-color:var(--gold);color:var(--gold);background:rgba(217,164,65,.04)}
+.project-feature{background:#15122a;box-shadow:0 30px 80px rgba(0,0,0,.12)}
+.project-feature-copy{border-color:rgba(232,220,197,.12)}
+.project-feature-copy h3{font-family:var(--sans);font-weight:750;letter-spacing:-.05em}
+.filter{gap:1.8rem}
+.filter button{position:relative}
+.filter button:after{content:'';position:absolute;left:0;right:100%;bottom:-1rem;height:1px;background:var(--gold);transition:right .3s var(--ease)}
+.filter button.active:after,.filter button:hover:after{right:0}
+.project{border-color:rgba(232,220,197,.11);background:#15122a}
+.project:before{content:'VIEW';position:absolute;z-index:3;right:1rem;top:1rem;border:1px solid rgba(232,220,197,.22);padding:.35rem .45rem;font-size:.5rem;letter-spacing:.16em;color:var(--cream);opacity:0;transform:translateY(-5px);transition:.35s var(--ease)}
+.project:hover:before{opacity:1;transform:none}
+.project img{filter:saturate(.9) contrast(1.02)}
+.social-layout{gap:4rem}
+.social-block h3{font-family:var(--sans);font-size:2.2rem;letter-spacing:-.035em}
+.social-icon{background:rgba(232,220,197,.025)}
+.social-item:hover{color:var(--gold);padding-left:.35rem}
+.brand-socials{gap:1px}
+.brand-social{background:#15122a;border-color:rgba(232,220,197,.11);min-height:220px}
+.contact{min-height:78vh;gap:4rem}
+.contact-title{font-family:var(--sans);font-weight:800}
+.contact-title em{font-family:var(--serif);font-weight:600}
+.modal-box{box-shadow:0 30px 100px rgba(0,0,0,.35)}
+.footer{border-top-color:rgba(232,220,197,.12)}
+@media(max-width:900px){
+ .hero:before{display:none}.hero-inner{padding-top:2rem}.hero-art{height:62vh}.hero-title{font-size:clamp(4.1rem,15vw,8rem)}
+ .section{padding:6.5rem 0}.about-photo{min-height:560px}.exp-content.active{gap:2rem}.project-feature-copy{border-left:1px solid var(--line)}
+}
+@media(max-width:560px){
+ .nav-inner{height:68px}.nav-links{top:68px}.hero{padding-top:68px}.hero-title{font-size:clamp(3.7rem,16vw,6.3rem)}.hero-title .last{padding-left:8vw}.hero-art{height:55vh;min-height:400px}.hero-meta{font-size:.56rem}.hero-meta b{font-size:.7rem}
+ .about-photo{min-height:470px}.section-title{font-size:clamp(3.2rem,16vw,5rem)}.exp-content.active{grid-template-columns:1fr}.exp-visual{min-height:330px}.proof-links{flex-direction:column}.proof-links a{text-align:center}.contact{min-height:auto;padding-bottom:2rem}
+}
+
+/* ===== FINAL THEME + ICON SYSTEM REVISION ===== */
+:root{
+ --bg:#080a18;--bg2:#0d1022;--bg3:#14182d;--cream:#f6f1e6;--white:#fffaf0;
+ --gold:#d4af37;--gold-soft:#e7d49a;--muted:#aaa7ad;--line:rgba(246,241,230,.16);
+ --navy-line:rgba(212,175,55,.28);--violet:#7654d6;--violet-soft:rgba(118,84,214,.22);
+}
+body{background:
+ radial-gradient(circle at 75% 8%,rgba(118,84,214,.10),transparent 24%),
+ radial-gradient(circle at 12% 65%,rgba(212,175,55,.045),transparent 24%),
+ linear-gradient(135deg,#080a18 0%,#0b0d1d 55%,#090a17 100%);
+ color:var(--white)}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.22;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,transparent,black 15%,black 85%,transparent)}
+.nav{background:rgba(8,10,24,.82);border-bottom:1px solid rgba(212,175,55,.22)}
+.nav-links a:hover,.nav-links a.active{color:var(--gold-soft)}
+.brand strong{color:var(--cream)}
+.hero{background:radial-gradient(circle at 76% 48%,rgba(118,84,214,.16),transparent 25%),radial-gradient(circle at 72% 68%,rgba(212,175,55,.07),transparent 23%),transparent}
+.hero:after{background:linear-gradient(90deg,rgba(8,10,24,.96) 0%,rgba(8,10,24,.54) 52%,rgba(8,10,24,.08) 100%)}
+.hero-art:before,.hero-art:after{color:rgba(246,241,230,.035)}
+.hero-art:after{color:rgba(212,175,55,.045)}
+.hero-title .last{color:var(--cream)}
+.portrait-wrap:before{background:radial-gradient(circle,rgba(118,84,214,.40),rgba(212,175,55,.12) 42%,transparent 72%);filter:blur(28px)}
+.hero-person{filter:drop-shadow(0 26px 32px rgba(0,0,0,.55)) drop-shadow(0 0 26px rgba(118,84,214,.34))}
+.section{position:relative}
+.section:before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,.30),transparent);opacity:.7}
+.section-head{position:relative}
+.section-head:after{content:"";position:absolute;left:0;bottom:-1.7rem;width:100%;height:1px;background:linear-gradient(90deg,rgba(212,175,55,.24),transparent 72%)}
+.section-no{color:var(--gold-soft)}
+.eyebrow{color:var(--gold-soft)}
+.eyebrow:before{background:var(--gold)}
+/* icon language: rounded premium line icon cards */
+.section-head .eyebrow{position:relative;padding-left:58px;min-height:42px;display:inline-flex;align-items:center}
+.section-head .eyebrow:after{content:"";position:absolute;left:0;top:0;width:40px;height:40px;border:1px solid rgba(212,175,55,.48);border-radius:12px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(118,84,214,.055));box-shadow:inset 0 0 0 1px rgba(246,241,230,.025),0 8px 24px rgba(0,0,0,.18)}
+.section-head .eyebrow:before{display:none}
+.section-head .eyebrow[data-icon]{font-size:.72rem}
+.icon-svg{position:absolute;left:10px;top:10px;width:20px;height:20px;stroke:var(--gold-soft);fill:none;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;z-index:2;pointer-events:none}
+/* skill cards */
+.skill{background:linear-gradient(145deg,rgba(255,255,255,.012),rgba(118,84,214,.025));border-color:rgba(212,175,55,.18)}
+.skill:hover{background:linear-gradient(145deg,rgba(212,175,55,.055),rgba(118,84,214,.06));transform:translateY(-3px);box-shadow:0 18px 45px rgba(0,0,0,.22)}
+.skill-icon{width:62px;height:62px;margin:1.7rem 0 1.2rem;border:1px solid rgba(212,175,55,.50);border-radius:15px;background:linear-gradient(145deg,rgba(246,241,230,.025),rgba(118,84,214,.08));box-shadow:inset 0 0 0 1px rgba(246,241,230,.025),0 10px 25px rgba(0,0,0,.18)}
+.skill-icon svg{width:28px;height:28px;stroke:var(--gold-soft);stroke-width:1.45}
+.skill h3{color:var(--cream)}
+/* education + timeline */
+.timeline{border-left-color:rgba(212,175,55,.26)}
+.edu-item:before{border-color:var(--gold);background:var(--bg2);box-shadow:0 0 0 5px rgba(212,175,55,.045)}
+.edu-year{color:var(--gold-soft)}
+/* experience */
+.exp-tabs{border-left-color:rgba(212,175,55,.20)}
+.exp-tab.active{color:var(--gold-soft);border-left-color:var(--gold);background:linear-gradient(90deg,rgba(212,175,55,.10),transparent)}
+.exp-visual{border-color:rgba(212,175,55,.20);box-shadow:inset 0 0 50px rgba(118,84,214,.08)}
+.proof-links a{border-bottom-color:var(--gold);color:var(--gold-soft)}
+/* projects */
+.project-feature,.brand-social{background:linear-gradient(145deg,#0e1123,#14172b)}
+.project-feature-copy,.project{border-color:rgba(212,175,55,.18)}
+.project-image:after{background:linear-gradient(90deg,transparent 35%,rgba(8,10,24,.30)),linear-gradient(0deg,rgba(8,10,24,.18),transparent 30%)}
+/* social / external icon treatment */
+.social-icon{width:42px;height:42px;border-radius:12px;border-color:rgba(212,175,55,.35);background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(118,84,214,.07));color:var(--gold-soft);font-weight:700}
+.social-item:hover .social-icon{box-shadow:0 0 22px rgba(212,175,55,.16)}
+.brand-social{border-color:rgba(212,175,55,.20);border-radius:18px;transition:.35s}
+.brand-social:hover{transform:translateY(-5px);border-color:rgba(212,175,55,.45);box-shadow:0 20px 50px rgba(0,0,0,.28),0 0 30px rgba(118,84,214,.08)}
+/* contact icons */
+.contact-row{border-bottom-color:rgba(212,175,55,.16)}
+.contact-row span:first-child{color:var(--gold-soft)}
+/* buttons */
+.btn{border-color:rgba(212,175,55,.38);border-radius:10px}
+.btn.primary{background:var(--gold);border-color:var(--gold);box-shadow:0 8px 25px rgba(212,175,55,.12)}
+/* tiny icon utility */
+.icon-chip{display:inline-grid;place-items:center;width:34px;height:34px;border:1px solid rgba(212,175,55,.42);border-radius:10px;color:var(--gold-soft);background:rgba(255,255,255,.025)}
+.icon-chip svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.5}
+@media(max-width:560px){.section-head .eyebrow{padding-left:50px}.section-head .eyebrow:after{width:36px;height:36px;border-radius:10px}.icon-svg{left:9px;top:9px;width:18px;height:18px}.skill-icon{width:58px;height:58px}}
+
+.contact-row{position:relative}.contact-row span:first-child{display:flex;align-items:center;gap:.55rem}.contact-row span:first-child:before{content:"";width:20px;height:20px;border:1px solid rgba(212,175,55,.38);border-radius:7px;display:inline-block;opacity:.9}
+
+/* ===== V8 FINAL RESPONSIVE + USER PHOTO SAFETY ===== */
+html{width:100%;overflow-x:hidden;-webkit-text-size-adjust:100%;}
+body{width:100%;min-width:0;overflow-x:hidden;overscroll-behavior-x:none;}
+img,svg{max-width:100%;}
+.nav-inner,.hero-inner,.about-grid,.exp-layout,.project-feature,.social-layout,.contact,.skills-grid,.timeline,.about-proof{min-width:0;}
+.hero-inner>* , .about-grid>* , .exp-content.active>* , .project-feature>* , .social-layout>* , .contact>*{min-width:0;}
+/* Keep the new full-frame portraits intact: no crop, no background removal, no forced positioning. */
+.portrait-wrap{width:min(620px,100%);height:min(84svh,760px);transform:translateY(5%);}
+.hero-person{width:100%;height:100%;object-fit:contain;object-position:center center;}
+.about-photo{min-height:650px;background:radial-gradient(circle at 52% 52%,rgba(126,73,211,.20),transparent 44%),#11101f;display:flex;align-items:center;justify-content:center;}
+.about-photo img{width:100%;height:100%;object-fit:contain;object-position:center center;}
+/* Touch devices should never depend on hover/parallax. */
+@media (hover:none), (pointer:coarse){
+  .hero-art:hover .hero-person,.about-photo:hover img{transform:none!important;}
+}
+@media (max-width:1100px){
+  .hero-inner{grid-template-columns:1fr;}
+  .hero-copy{max-width:760px;}
+  .hero-art{height:60vh;min-height:460px;}
+  .portrait-wrap{height:100%;width:min(620px,96vw);transform:none;}
+  .about-grid{gap:3rem;}
+  .about-photo{min-height:560px;}
+}
+@media (max-width:900px){
+  .nav-inner{height:68px;}
+  .nav-links{top:68px;max-height:calc(100svh - 68px);overflow:auto;-webkit-overflow-scrolling:touch;}
+  .hero{padding-top:68px;}
+  .hero-inner{padding-top:0;}
+  .hero-copy{padding:3.25rem 0 1rem;}
+  .hero-title{font-size:clamp(4rem,15vw,7.4rem);}
+  .hero-title .last{padding-left:7vw;}
+  .hero-meta{max-width:none;}
+  .hero-art{height:58svh;min-height:430px;}
+  .portrait-wrap{height:100%;width:min(620px,100%);}
+  .hero-person{width:100%;height:100%;}
+  .about-grid{grid-template-columns:1fr;gap:2.5rem;}
+  .about-photo{min-height:560px;max-height:none;}
+  .timeline{margin-left:20px;}
+  .project-feature{grid-template-columns:1fr;}
+  .project-feature-copy{border-left:0;border-top:1px solid var(--line);}
+  .project:nth-child(n){grid-column:span 6;}
+  .section-head{grid-template-columns:55px 1fr;}
+}
+@media (max-width:560px){
+  .container{width:92vw;max-width:none;}
+  .section{padding:5.5rem 0;}
+  .section-head{gap:12px;margin-bottom:2.5rem;}
+  .section-no{font-size:.62rem;}
+  h2.section-title{font-size:clamp(2.75rem,14vw,4.7rem);line-height:.86;}
+  .hero-copy{padding:2.6rem 0 .5rem;}
+  .hero-kicker{font-size:.58rem;letter-spacing:.18em;margin-bottom:1.35rem;}
+  .hero-title{font-size:clamp(3.55rem,16.5vw,6.3rem);line-height:.82;letter-spacing:-.07em;}
+  .hero-title .last{padding-left:5vw;}
+  .hero-role{font-size:.62rem;letter-spacing:.1em;margin-top:1.6rem;padding-left:.9rem;}
+  .hero-actions{gap:.7rem;margin-top:1.7rem;}
+  .hero-actions .btn{width:100%;justify-content:center;}
+  .hero-meta{gap:1rem;margin-top:2rem;padding-top:1rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));}
+  .hero-meta>div{min-width:0;}
+  .hero-meta b{font-size:.66rem;word-break:break-word;}
+  .hero-art{height:55svh;min-height:400px;max-height:560px;}
+  .portrait-wrap{width:100%;height:100%;transform:none;}
+  .hero-person{width:100%;height:100%;object-fit:contain;object-position:center center;}
+  .scroll-cue{display:none;}
+  .about-photo{min-height:470px;height:70svh;max-height:620px;}
+  .about-photo img{width:100%;height:100%;object-fit:contain;object-position:center center;}
+  .about-copy h3{font-size:clamp(2.5rem,11vw,4rem);}
+  .skills-grid{grid-template-columns:1fr;}
+  .skill{min-height:auto;}
+  .edu-proof{margin-left:0;}
+  .project:nth-child(n){grid-column:span 12;min-height:300px;}
+  .project-image{min-height:62vw;}
+  .contact-row{grid-template-columns:70px minmax(0,1fr) 18px;}
+  .contact-row a{overflow-wrap:anywhere;word-break:break-word;}
+}
+@media (max-width:380px){
+  .container{width:90vw;}
+  .hero-title{font-size:clamp(3.2rem,17vw,5.3rem);}
+  .hero-meta{grid-template-columns:1fr 1fr;}
+  .hero-meta>div:last-child{grid-column:1/-1;}
+  .hero-art{height:50svh;min-height:360px;}
+  .about-photo{min-height:420px;height:62svh;}
+}
+@media (prefers-reduced-motion:reduce){.hero-art{transform:none!important}.hero-person,.about-photo img{transition:none!important}}
+
+</style>
+<style>
+/* V3 VISUAL REFINEMENT — typography and existing copy intentionally untouched */
+:root{--neon-purple:#8b5cf6;--neon-gold:#d9a441;--neon-cream:#e8dcc5}
+.hero{background:
+ radial-gradient(circle at 72% 47%,rgba(139,92,246,.22),transparent 27%),
+ radial-gradient(circle at 84% 72%,rgba(217,164,65,.10),transparent 21%),var(--bg)}
+.hero-art{isolation:isolate}
+.portrait-wrap:before{width:82%;height:72%;right:5%;bottom:10%;
+ background:radial-gradient(circle,rgba(139,92,246,.48) 0%,rgba(139,92,246,.22) 30%,rgba(217,164,65,.12) 48%,transparent 72%);
+ filter:blur(34px);animation:portraitGlow 5s ease-in-out infinite alternate}
+.portrait-wrap:after{width:64%;height:14%;bottom:4%;background:radial-gradient(ellipse,rgba(139,92,246,.34),rgba(217,164,65,.14),transparent 70%);filter:blur(16px)}
+.hero-person{filter:drop-shadow(0 28px 34px rgba(0,0,0,.52)) drop-shadow(0 0 10px rgba(139,92,246,.22)) drop-shadow(0 0 28px rgba(139,92,246,.14));}
+.about-photo{background:
+ radial-gradient(circle at 50% 48%,rgba(139,92,246,.34),transparent 38%),
+ radial-gradient(circle at 68% 70%,rgba(217,164,65,.14),transparent 28%),#17132d;
+ box-shadow:inset 0 0 70px rgba(139,92,246,.08),0 18px 50px rgba(0,0,0,.18)}
+.about-photo:before{opacity:.9}
+.about-photo:after{inset:5%;border-color:rgba(232,220,197,.14);box-shadow:0 0 28px rgba(139,92,246,.08)}
+..about-photo img{filter:drop-shadow(0 22px 30px rgba(0,0,0,.42)) drop-shadow(0 0 13px rgba(139,92,246,.24));}
+.social-item .social-icon{overflow:hidden;font-size:0;border-color:rgba(232,220,197,.13);background:rgba(23,19,45,.55)}
+.social-item .social-icon img{width:27px;height:27px;object-fit:contain;display:block;filter:drop-shadow(0 0 7px rgba(139,92,246,.12))}
+.brand-social{min-height:185px;background:linear-gradient(145deg,rgba(23,19,45,.92),rgba(15,13,32,.96));border-color:rgba(232,220,197,.13);display:flex;align-items:center;justify-content:center;padding:1rem}
+.brand-social img{width:112px!important;height:112px!important;object-fit:contain!important;opacity:1!important;filter:drop-shadow(0 12px 18px rgba(0,0,0,.32)) drop-shadow(0 0 18px rgba(139,92,246,.14))}
+.brand-social strong{font-size:1rem;letter-spacing:.12em;opacity:.78}
+@keyframes portraitGlow{from{transform:scale(.98);opacity:.72}to{transform:scale(1.03);opacity:1}}
+@media(max-width:900px){.portrait-wrap{transform:none;height:88%}.portrait-wrap:before{width:88%;height:70%;right:6%}.hero-person{filter:drop-shadow(0 22px 28px rgba(0,0,0,.5)) drop-shadow(0 0 16px rgba(139,92,246,.18))}.about-photo{box-shadow:none}.brand-social{min-height:170px}}
+</style>
+<style id="v4-professional-polish">
+/* V4 professional polish: preserve the editorial identity, improve hierarchy and proof. */
+:root{--gold-soft:#e2bd63}
+.section-head{margin-bottom:3.5rem}
+h2.section-title{font-size:clamp(3rem,6vw,6.6rem);line-height:.88;letter-spacing:-.025em}
+.section-head .eyebrow{font-size:.64rem;letter-spacing:.16em;color:var(--gold-soft)}
+.section-head .eyebrow:after{width:38px;height:38px;border-radius:11px;background:rgba(217,164,65,.045);box-shadow:0 8px 22px rgba(0,0,0,.16)}
+.icon-svg{width:19px;height:19px;left:9.5px;top:9.5px;stroke:var(--gold-soft);stroke-width:1.65}
+.hero-title{line-height:.78;letter-spacing:-.035em}
+.hero-role strong{color:var(--cream)}
+.hero-person{filter:drop-shadow(0 22px 25px rgba(0,0,0,.42)) drop-shadow(0 0 18px rgba(217,164,65,.12))}
+.about-photo{background:linear-gradient(145deg,#eee5d3,#cfc2aa)}
+.about-photo img{filter:drop-shadow(0 20px 28px rgba(0,0,0,.22)) contrast(1.01)}
+.about-proof{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:2.2rem;border:1px solid var(--line);background:var(--line)}
+.about-proof>div{background:rgba(23,19,45,.72);padding:1rem 1.1rem}
+.about-proof span,.edu-proof .proof-kicker{display:block;color:var(--gold-soft);font-size:.56rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800}
+.about-proof strong{display:block;margin-top:.3rem;font-size:.76rem;letter-spacing:.03em;color:var(--cream)}
+.edu-year{display:flex;flex-direction:column;gap:.2rem}.edu-year span{font-family:var(--sans);font-size:.46rem;letter-spacing:.14em;color:var(--gold-soft);font-weight:800}
+.edu-proof{margin:2.4rem 0 0 110px;border-left:1px solid rgba(217,164,65,.45);padding:1.1rem 1.2rem;background:rgba(217,164,65,.035);max-width:760px}
+.edu-proof strong{display:block;font-size:.85rem;color:var(--cream);margin:.35rem 0}.edu-proof p{font-size:.76rem;color:var(--muted);max-width:650px}
+.skills-grid{grid-template-columns:repeat(4,1fr)}
+.skill{min-height:330px}.skill h3{letter-spacing:-.02em}.skill-icon{color:var(--gold-soft)}
+.project-feature-copy h3{font-family:var(--serif);font-weight:600;letter-spacing:-.02em}
+.project-image img{object-position:center}
+.project-info h3{letter-spacing:-.02em}
+.brand-social .brand-logo{width:42px;height:42px;object-fit:contain;border-radius:50%;background:#fff;padding:3px}
+.social-icon{display:flex;align-items:center;justify-content:center;position:relative;color:var(--gold-soft);font-size:0}.social-icon img{width:24px;height:24px;object-fit:contain}.social-icon>img{display:block}.social-icon{width:40px;height:40px;border:1px solid rgba(217,164,65,.22);border-radius:11px;background:rgba(217,164,65,.035)}
+.contact-row a{overflow-wrap:anywhere}
+@media(max-width:1100px){.skills-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.edu-proof{margin-left:75px}.about-proof{grid-template-columns:1fr}.skills-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.portrait-wrap{height:100%}h2.section-title{font-size:clamp(2.8rem,14vw,5rem)}.edu-proof{margin-left:0}.skills-grid{grid-template-columns:1fr}.about-proof>div{padding:.9rem}.section-head .eyebrow{font-size:.58rem}.hero-title{line-height:.8}}
+</style>
+<link rel="preload" as="image" href="./assets/hero-portrait.png">
+</head>
+<body>
+<div class="cursor-dot" id="cursorDot"></div><div class="cursor-ring" id="cursorRing"></div>
+<header class="nav"><div class="container nav-inner"><a class="brand" href="#top"><strong>NUR ABDULLAH</strong><span>PORTFOLIO · 2026</span></a><button aria-label="Buka menu" class="menu" id="menu">☰</button><ul class="nav-links" id="navLinks"><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#social">Social</a></li><li><a href="#contact">Contact</a></li></ul></div></header>
+<main id="top">
+<section class="hero"><div class="container hero-inner"><div class="hero-copy reveal"><div class="hero-kicker"><span aria-hidden="true" class="icon-chip"><svg viewbox="0 0 24 24"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"></path></svg></span>01 / 08 · Editorial Portfolio</div><h1 class="hero-title"><span>NUR</span><span>ABDULLAH</span><span class="last">KHOLIQ</span></h1><div class="hero-role"><span>S1 Pharmacy Student</span><strong>Pharmacy Student &amp; Digital Content Creator</strong></div><div class="hero-actions"><a class="btn primary" href="#projects">View Portfolio ↗</a><a class="btn" href="#contact">Let's Connect</a></div><div class="hero-meta"><div>DISCIPLINE<b>Pharmacy</b></div><div>CREATIVE<b>Digital Content</b></div><div>LOCATION<b>Tangerang</b></div></div></div><div class="hero-art reveal"><div class="portrait-wrap"><img alt="Nur Abdullah Kholiq — portrait" class="hero-person" loading="eager" src="./assets/hero-portrait.png"/></div></div><div class="scroll-cue">Scroll to explore</div></div></section>
+<section class="section" id="about"><div class="container"><div class="section-head reveal"><span class="section-no">02 / 08</span><div><span class="eyebrow" data-icon="about"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><path d="M15 14c3.2 0 5.8-2.6 5.8-5.8S18.2 2.4 15 2.4 9.2 5 9.2 8.2 11.8 14 15 14Z"></path><path d="M4.2 22.5c.8-3.5 4.8-5.6 10.8-5.6s10 2.1 10.8 5.6"></path></svg>The Journey</span><h2 class="section-title">ABOUT<br/><i>ME</i></h2></div></div><div class="about-grid"><div class="about-photo reveal"><img alt="Nur Abdullah Kholiq — pharmacy practical portrait" loading="lazy" src="./assets/about-portrait.png"/></div><div class="about-copy reveal"><span class="eyebrow">Pharmacy × Digital Creative</span><h3>Between <i>science</i> and storytelling.</h3><p class="lead">Mahasiswa S1 Farmasi Klinis &amp; Komunitas di STIKes Widya Dharma Husada yang menggabungkan kompetensi kefarmasian dengan keahlian di bidang digital content creation, social media management, dan public speaking. Memiliki pengalaman praktis sebagai Asisten Tenaga Teknis Kefarmasian (ATTK) sekaligus pengelola media sosial, e-commerce, dan desain konten promosi. Adaptif terhadap perkembangan teknologi digital dan terbiasa menciptakan konten edukatif yang informatif serta estetis.</p><div class="about-tags"><span class="tag">Pharmacy</span><span class="tag">Digital Content</span><span class="tag">Communication</span><span class="tag">Creative Design</span></div></div></div><div class="about-proof"><div><span>FIELD</span><strong>Pharmacy</strong></div><div><span>CREATIVE</span><strong>Digital Content</strong></div><div><span>ROLE</span><strong>Student · Creator</strong></div></div></div></div></section>
+<section class="section" id="education"><div class="container"><div class="section-head reveal"><span class="section-no">03 / 08</span><div><span class="eyebrow" data-icon="education"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><path d="m3 9 12-6 12 6-12 6L3 9Z"></path><path d="M7 11.2V17c4 3 12 3 16 0v-5.8"></path><path d="M27 10v8"></path></svg>Academic Foundation</span><h2 class="section-title">EDUCA<br/>TION</h2></div></div><div class="timeline"><div class="edu-item reveal"><div class="edu-year">2027<span>EXPECTED</span></div><div><h3 class="edu-school">STIKes Widya Dharma Husada Tangerang</h3><p class="edu-copy">Mahasiswa aktif semester akhir yang berfokus pada pendalaman farmasi klinis, kajian saintifik, serta pelayanan kesehatan berbasis komunitas. Dipercaya menjabat sebagai Ketua Kelas, menjadi jembatan komunikasi antara dosen dan mahasiswa, mengkoordinasikan kegiatan akademik harian, serta memimpin diskusi dan kerja kelompok dalam berbagai tugas serta praktikum laboratorium.</p></div></div><div class="edu-item reveal"><div class="edu-year">2023</div><div><h3 class="edu-school">SMK Letris 2</h3><p class="edu-copy">Lulusan jurusan Farmasi yang telah membangun fondasi dasar ilmu kefarmasian sejak bangku sekolah menengah. Aktif mempelajari dasar-dasar peracikan obat, administrasi apotek, serta keselamatan kerja laboratorium. Pengalaman dasar ini menjadi pijakan awal dalam menjalani magang asisten apoteker dan melanjutkan studi ke jenjang perguruan tinggi.</p></div></div></div><div class="edu-proof reveal"><span class="proof-kicker">ACADEMIC LEADERSHIP</span><strong>Ketua Kelas · Communication &amp; Coordination</strong><p>Menjadi jembatan komunikasi antara dosen dan mahasiswa, mengkoordinasikan kegiatan akademik harian, serta memimpin diskusi dan kerja kelompok.</p></div></div></div></section>
+<section class="section" id="skills"><div class="container"><div class="section-head reveal"><span class="section-no">04 / 08</span><div><span class="eyebrow" data-icon="skills"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><path d="M15 3v24M3 15h24"></path><circle cx="15" cy="15" r="10"></circle></svg>Core Competencies</span><h2 class="section-title">PERSONAL<br/>SKILLS</h2></div></div><div class="skills-grid"><article class="skill reveal"><span class="skill-num">01 · PHARMACY</span><div aria-hidden="true" class="skill-icon"><svg viewbox="0 0 24 24"><path d="M8 3v18M4 7h8M4 17h8M16 5h4M16 12h4M16 19h4"></path><rect height="18" rx="1" width="2.5" x="12.5" y="3"></rect></svg></div><h3>PHARMACY</h3><ul><li>Pelayanan Kefarmasian</li><li>Dispensing</li><li>Administrasi Apotek</li><li>Edukasi Obat</li></ul></article><article class="skill reveal"><span class="skill-num">02 · CREATIVE</span><div aria-hidden="true" class="skill-icon"><svg viewbox="0 0 24 24"><path d="M4 5h16v12H4zM8 21h8M12 17v4M7 9h4M7 12h7"></path></svg></div><h3>CREATIVE</h3><ul><li>Canva</li><li>CapCut</li><li>Content Creation</li><li>Social Media Management</li></ul></article><article class="skill reveal"><span class="skill-num">03 · COMMUNICATION</span><div aria-hidden="true" class="skill-icon"><svg viewbox="0 0 24 24"><path d="M5 5h14v10H9l-4 4zM8 9h8M8 12h5"></path></svg></div><h3>COMMUNICATION</h3><ul><li>Public Speaking</li><li>Live Streaming</li><li>Customer Service</li></ul></article><article class="skill reveal"><span class="skill-num">04 · E-COMMERCE</span><div aria-hidden="true" class="skill-icon"><svg viewbox="0 0 24 24"><path d="M4 7h16l-1 12H5L4 7Z"></path><path d="M8 7a4 4 0 0 1 8 0M8 11v.01M16 11v.01"></path></svg></div><h3>E-COMMERCE</h3><ul><li>TikTok Shop</li><li>Shopee</li><li>Tokopedia</li></ul></article></div></div></section>
+<section class="section" id="experience"><div class="container"><div class="section-head reveal"><span class="section-no">05 / 08</span><div><span class="eyebrow" data-icon="experience"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><rect height="17" rx="2" width="24" x="3" y="7"></rect><path d="M9 7V5h12v2M11 13h8M15 13v5"></path></svg>Work History &amp; Proof</span><h2 class="section-title">EXPERI<br/>ENCE</h2></div></div><div class="exp-layout"><div class="exp-tabs" role="tablist"><button aria-selected="true" class="exp-tab active" data-exp="attk" role="tab">ATTK</button><button class="exp-tab" data-exp="creator" role="tab">Content Creator</button><button class="exp-tab" data-exp="host" role="tab">Host Live</button><button class="exp-tab" data-exp="magang" role="tab">Magang Apotek</button><button class="exp-tab" data-exp="orbit" role="tab">Other Experience</button></div><div class="exp-panel">
+<div class="exp-content active" id="attk"><div class="exp-visual"><img alt="Pharmacy practical portrait" loading="lazy" src="./assets/about-portrait.png"/><span class="exp-visual-label">Apotek LakuFarma · Social Proof</span></div><div class="exp-copy"><h3>Asisten Tenaga Teknis Kefarmasian</h3><span class="exp-company">Apotek LakuFarma</span><span class="exp-date">Operasional Apotek · 6 Bulan</span><ul class="exp-list"><li>Bertanggung jawab atas pelayanan resep dokter, peracikan obat, dan pelayanan penjualan obat secara langsung maupun online.</li><li>Melakukan Pelayanan Informasi Obat (PIO) dan edukasi dasar terkait aturan penggunaan obat kepada pasien.</li><li>Mengelola manajemen stok obat, penerimaan produk, serta administrasi penjualan harian apotek.</li></ul><div class="proof"><span>Digital &amp; E-Commerce · 9 Bulan</span><ul class="exp-list" style="margin-top:.7rem"><li>Merancang strategi konten kreatif untuk media sosial resmi apotek (TikTok &amp; Instagram).</li><li>Membuat desain promosi dan materi edukasi kesehatan menggunakan Canva, serta mengedit video konten melalui CapCut.</li><li>Mengoperasikan e-commerce apotek di TikTok Shop, Shopee, dan Tokopedia.</li></ul><div class="proof-links"><a href="https://www.instagram.com/lakufarma?igsh=MXNudWpucXZ0OTRmZQ==" rel="noopener noreferrer" target="_blank">Instagram @lakufarma ↗</a><a href="https://www.tiktok.com/@lakufarmaa?_r=1&amp;_t=ZS-98UubqKirVS" rel="noopener noreferrer" target="_blank">TikTok @lakufarmaa ↗</a></div></div></div></div>
+<div class="exp-content" id="creator"><div class="exp-visual"><img alt="Kolase hasil karya digital" loading="lazy" src="./assets/embedded-02.webp"/><span class="exp-visual-label">Digital Content &amp; Creative Work</span></div><div class="exp-copy"><h3>Content Creator</h3><span class="exp-company">Apotek LakuFarma</span><span class="exp-date">Digital &amp; E-Commerce · 9 Bulan</span><ul class="exp-list"><li>Mengelola dan merancang strategi konten kreatif untuk media sosial resmi apotek (TikTok &amp; Instagram).</li><li>Membuat desain promosi dan materi edukasi kesehatan menggunakan Canva serta melakukan editing video konten melalui CapCut.</li><li>Mengelola e-commerce apotek di TikTok Shop, Shopee, dan Tokopedia untuk meningkatkan jangkauan penjualan online.</li></ul></div></div>
+<div class="exp-content" id="host"><div class="exp-visual"><img alt="Visual editorial untuk pengalaman host live" loading="lazy" src="./assets/embedded-03.webp"/><span class="exp-visual-label">Live Streaming · 2026</span></div><div class="exp-copy"><h3>Host Live Streaming Properti</h3><span class="exp-company">PT Analis Properti Indonesia (Winfield)</span><span class="exp-date">2026</span><ul class="exp-list"><li>Menyusun alur presentasi (scripting) dan membawakan sesi live streaming interaktif secara langsung untuk pemasaran kawasan properti strategis di area Tangerang (BSD City &amp; Park Serpong).</li><li>Membangun keterikatan (engagement) audiens melalui teknik komunikasi publik yang persuasif.</li></ul></div></div>
+<div class="exp-content" id="magang"><div class="exp-visual"><img alt="Ilustrasi pharmacy untuk pengalaman magang" loading="lazy" src="./assets/embedded-04.webp"/><span class="exp-visual-label">Pharmacy · 2022</span></div><div class="exp-copy"><h3>Magang Asisten Apoteker</h3><span class="exp-company">Apotek Granada</span><span class="exp-date">2022</span><ul class="exp-list"><li>Membantu penyiapan dan peracikan obat sesuai resep, serta pengelolaan stok obat di bawah pengawasan Apoteker.</li></ul></div></div>
+<div class="exp-content" id="orbit"><div class="exp-visual"><img alt="Visual personal editorial" loading="lazy" src="./assets/embedded-05.webp"/><span class="exp-visual-label">Other Experience · 2023</span></div><div class="exp-copy"><h3>Food &amp; Beverage Server</h3><span class="exp-company">Orbit Brasserie</span><span class="exp-date">2023</span><ul class="exp-list"><li>Memberikan layanan pelanggan (hospitality), manajemen waktu, dan komunikasi aktif di lingkungan operasional restoran.</li></ul></div></div>
+</div></div></div></section>
+<section class="section" id="projects"><div class="container"><div class="section-head reveal"><span class="section-no">06 / 08</span><div><span class="eyebrow" data-icon="projects"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><path d="M4 7h9l2 3h6a3 3 0 0 1 3 3v7H4V7Z"></path><path d="M4 10h20"></path></svg>Selected Work</span><h2 class="section-title">PROJECT<br/><i>PORTFOLIO</i></h2></div></div><div class="project-feature reveal"><div class="project-image"><img alt="Kolase hasil karya kreatif utama" loading="lazy" src="./assets/laku-instagram-proof.png"/></div><div class="project-feature-copy"><span class="eyebrow">Featured Project</span><div><h3>Creative<br/>Visuals</h3><p>A practical showcase of pharmacy communication, social media content, and digital campaign execution developed for Apotek Laku Farma.</p><div class="project-meta"><span>Health Content</span><span>Social Media</span><span>Digital Marketing</span></div></div></div></div><div class="filter" role="tablist"><button class="active" data-filter="all">All</button><button data-filter="social">Social Media</button><button data-filter="pharmacy">Pharmacy</button><button data-filter="personal">Personal Creative</button></div><div class="projects-grid"><article class="project reveal" data-category="personal" data-desc="Kolase visual utama dari hasil karya kreatif." data-link="https://www.instagram.com/breatodox_" data-title="Creative Visual Portfolio"><img alt="Creative visual portfolio" loading="lazy" src="./assets/embedded-07.webp"/><div class="project-info"><small>Personal Creative</small><h3>Visual Storytelling</h3><p>Editorial · Photography · Design</p></div></article><article class="project reveal" data-category="social" data-desc="Materi dan pengelolaan visual media sosial Apotek LakuFarma." data-link="https://www.instagram.com/lakufarma?igsh=MXNudWpucXZ0OTRmZQ==" data-title="Instagram LakuFarma"><img alt="Instagram LakuFarma" loading="lazy" src="./assets/laku-instagram-proof.png"/><div class="project-info"><small>Social Media</small><h3>LakuFarma</h3><p>Instagram content</p></div></article><article class="project reveal" data-category="social" data-desc="Referensi tampilan akun sosial LakuFarma dari materi portfolio." data-link="https://www.tiktok.com/@lakufarmaa?_r=1&amp;_t=ZS-98UubqKirVS" data-title="TikTok &amp; Instagram Proof"><img alt="Social media LakuFarma" loading="lazy" src="./assets/laku-tiktok-proof.png"/><div class="project-info"><small>Social Media</small><h3>Digital Presence</h3><p>Brand content</p></div></article><article class="project reveal" data-category="personal" data-desc="Project personal yang menggabungkan literasi medis, narasi, dan perancangan visual estetis." data-link="https://www.instagram.com/breatodox_" data-title="Sastra Medis / Breatodox"><img alt="Instagram karya pribadi" loading="lazy" src="./assets/embedded-10.webp"/><div class="project-info"><small>Personal Creative</small><h3>Sastra Medis</h3><p>Visual narrative</p></div></article><article class="project reveal" data-category="social" data-desc="Akun personal dan showcase karya visual." data-link="https://www.instagram.com/nurabdullahkholiq_" data-title="Personal Social Media"><img alt="Instagram personal" loading="lazy" src="./assets/personal-instagram-proof.jpg"/><div class="project-info"><small>Social Media</small><h3>Personal Brand</h3><p>@nurabdullahkholiq_</p></div></article><article class="project reveal" data-category="pharmacy" data-desc="Eksplorasi visual bertema pharmacy dan komunikasi kesehatan." data-link="https://www.instagram.com/lakufarma" data-title="Pharmacy Creative"><img alt="Visual pharmacy" loading="lazy" src="./assets/embedded-12.webp"/><div class="project-info"><small>Pharmacy</small><h3>Pharmacy Visual</h3><p>Health communication</p></div></article><article class="project reveal" data-category="social" data-desc="Pengelolaan e-commerce dan konten penjualan online di TikTok Shop, Shopee, dan Tokopedia." data-link="https://www.tiktok.com/@lakufarmaa" data-title="E-Commerce Content"><img alt="TikTok Shop" loading="lazy" src="./assets/embedded-13.webp"/><div class="project-info"><small>E-Commerce</small><h3>Online Store</h3><p>TikTok Shop · Shopee · Tokopedia</p></div></article></div></div></section>
+<section class="section" id="social"><div class="container"><div class="section-head reveal"><span class="section-no">07 / 08</span><div><span class="eyebrow" data-icon="social"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><circle cx="6" cy="15" r="3"></circle><circle cx="24" cy="6" r="3"></circle><circle cx="24" cy="24" r="3"></circle><path d="m8.7 13.6 12.6-6.2M8.7 16.4l12.6 6.2"></path></svg>Personal Media</span><h2 class="section-title">SOCIAL<br/><i>NETWORK</i></h2></div></div><div class="social-layout"><div class="social-block reveal"><h3>Personal Social Media</h3><div class="social-list"><a class="social-item" href="https://www.instagram.com/nurabdullahkholiq_" rel="noopener noreferrer" target="_blank"><span class="social-icon">◎<img alt="" src="./assets/instagram.png"/></span><div><div class="social-name">Instagram</div><div class="social-handle">@nurabdullahkholiq_</div></div><span class="social-arrow">↗</span></a><a class="social-item" href="https://www.instagram.com/breatodox_" rel="noopener noreferrer" target="_blank"><span class="social-icon">✦<img alt="" src="./assets/instagram.png"/></span><div><div class="social-name">Instagram Karya</div><div class="social-handle">@breatodox_</div></div><span class="social-arrow">↗</span></a><a class="social-item" href="#" onclick="return false"><span class="social-icon">▶</span><div><div class="social-name">YouTube</div><div class="social-handle">Coming Soon</div></div><span class="social-arrow">—</span></a><a class="social-item" href="https://www.linkedin.com/in/nur-abdullah-kholiq-905199295" rel="noopener noreferrer" target="_blank"><span class="social-icon">in<img alt="" src="./assets/linkedin.png"/></span><div><div class="social-name">LinkedIn</div><div class="social-handle">Nur Abdullah Kholiq</div></div><span class="social-arrow">↗</span></a></div></div><div class="social-block reveal"><h3>Social Media Apotek</h3><div class="social-list"><a class="social-item" href="https://www.instagram.com/lakufarma?igsh=MXNudWpucXZ0OTRmZQ==" rel="noopener noreferrer" target="_blank"><span class="social-icon">◎<img alt="" src="./assets/instagram.png"/></span><div><div class="social-name">Instagram Apotek</div><div class="social-handle">@lakufarma</div></div><span class="social-arrow">↗</span></a><a class="social-item" href="https://www.tiktok.com/@lakufarmaa?_r=1&amp;_t=ZS-98UubqKirVS" rel="noopener noreferrer" target="_blank"><span class="social-icon">♪<img alt="" src="./assets/tiktok.png"/></span><div><div class="social-name">TikTok Apotek</div><div class="social-handle">@lakufarmaa</div></div><span class="social-arrow">↗</span></a></div><div class="brand-socials"><div class="brand-social"><img class="brand-logo" alt="Logo Apotek Laku Farma" loading="lazy" src="./assets/laku-farma-logo.png"/><strong>LAKU FARMA</strong></div><div class="brand-social"><img class="brand-logo" alt="Personal creative profile" loading="lazy" src="./assets/instagram.png"/><strong>PERSONAL CREATIVE</strong></div></div></div></div></div></section>
+<section class="section" id="contact"><div class="container"><div class="section-head reveal"><span class="section-no">08 / 08</span><div><span class="eyebrow" data-icon="contact"><svg aria-hidden="true" class="icon-svg" viewbox="0 0 30 30"><rect height="20" rx="2" width="24" x="3" y="5"></rect><path d="m4 7 11 9L26 7"></path></svg>Get In Touch</span><h2 class="section-title">LET'S<br/><i>CONNECT.</i></h2></div></div><div class="contact"><div class="reveal"><div class="contact-title">LET'S<br/><em>TALK.</em></div><p class="lead" style="margin-top:2rem">Open to meaningful conversations around pharmacy, digital content, creative work, and collaboration.</p></div><div class="contact-info reveal"><div class="contact-row"><span>Email</span><a href="mailto:snowypalter@gmail.com">snowypalter@gmail.com</a><span>↗</span></div><div class="contact-row"><span>WhatsApp</span><a href="https://wa.me/6287824890792" rel="noopener noreferrer" target="_blank">087824890792</a><span>↗</span></div><div class="contact-row"><span>LinkedIn</span><a href="https://www.linkedin.com/in/nur-abdullah-kholiq-905199295" rel="noopener noreferrer" target="_blank">Nur Abdullah Kholiq</a><span>↗</span></div><div class="contact-row"><span>Instagram</span><a href="https://www.instagram.com/nurabdullahkholiq_" rel="noopener noreferrer" target="_blank">@nurabdullahkholiq_</a><span>↗</span></div></div></div></div></section>
+</main>
+<footer><div class="container footer"><span>NUR ABDULLAH KHOLIQ</span><span>PHARMACY × DIGITAL CREATIVE · © 2026</span><span>EDITORIAL PORTFOLIO</span></div></footer>
+<div aria-hidden="true" class="modal" id="modal"><div aria-labelledby="modalTitle" aria-modal="true" class="modal-box" role="dialog"><button aria-label="Tutup" class="modal-close" id="modalClose">×</button><span class="eyebrow">Project Detail</span><h3 id="modalTitle">Project</h3><p id="modalDesc"></p><a href="#" id="modalLink" rel="noopener noreferrer" target="_blank">Open project ↗</a></div></div>
+<script>
+const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>[...c.querySelectorAll(s)];
+// Centralized social/contact URLs (kept in sync with the original portfolio content).
+const SOCIAL_LINKS={
+ instagramPersonal:'https://www.instagram.com/nurabdullahkholiq_',
+ instagramKarya:'https://www.instagram.com/breatodox_',
+ instagramLakuFarma:'https://www.instagram.com/lakufarma?igsh=MXNudWpucXZ0OTRmZQ==',
+ tiktokLakuFarma:'https://www.tiktok.com/@lakufarmaa?_r=1&_t=ZS-98UubqKirVS',
+ linkedin:'https://www.linkedin.com/in/nur-abdullah-kholiq-905199295'
+};
+const menu=$('#menu'), nav=$('#navLinks');
+menu?.addEventListener('click',()=>{nav.classList.toggle('open'); menu.setAttribute('aria-label',nav.classList.contains('open')?'Tutup menu':'Buka menu')});
+$$('.nav-links a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+// Experience tabs
+const tabs=$$('.exp-tab'), contents=$$('.exp-content');
+tabs.forEach(t=>t.addEventListener('click',()=>{tabs.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-selected','false')});contents.forEach(x=>x.classList.remove('active'));t.classList.add('active');t.setAttribute('aria-selected','true');$('#'+t.dataset.exp)?.classList.add('active')}));
+// Project filters
+const filterButtons=$$('.filter button'), projects=$$('.project');
+filterButtons.forEach(btn=>btn.addEventListener('click',()=>{filterButtons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;projects.forEach(p=>{p.style.display=(f==='all'||p.dataset.category===f)?'block':'none'})}));
+// Project modal
+const modal=$('#modal'), close=$('#modalClose');
+function openModal(p){$('#modalTitle').textContent=p.dataset.title||'Project';$('#modalDesc').textContent=p.dataset.desc||'';const link=$('#modalLink');link.href=p.dataset.link||'#';modal.classList.add('open');modal.setAttribute('aria-hidden','false');close.focus()}
+projects.forEach(p=>p.addEventListener('click',()=>openModal(p))); close.addEventListener('click',()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true')}); modal.addEventListener('click',e=>{if(e.target===modal)close.click()}); document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open'))close.click()});
+// Reveal on scroll
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.08}); $$('.reveal').forEach(el=>observer.observe(el));
+// Active navigation
+const sections=$$('main section[id]'), links=$$('.nav-links a'); const navObs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-35% 0px -55% 0px'}); sections.forEach(s=>navObs.observe(s));
+// Subtle desktop cursor
+if(matchMedia('(pointer:fine)').matches){document.body.classList.add('cursor-ready');const dot=$('#cursorDot'),ring=$('#cursorRing');let x=innerWidth/2,y=innerHeight/2,rx=x,ry=y;window.addEventListener('mousemove',e=>{x=e.clientX;y=e.clientY;dot.style.left=x+'px';dot.style.top=y+'px'});function tick(){rx+=(x-rx)*.18;ry+=(y-ry)*.18;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(tick)}tick();$$('a,button,.project').forEach(el=>el.addEventListener('mouseenter',()=>{ring.style.width='46px';ring.style.height='46px'}));$$('a,button,.project').forEach(el=>el.addEventListener('mouseleave',()=>{ring.style.width='30px';ring.style.height='30px'}))}
+
+// Subtle editorial parallax — disabled on touch/reduced-motion devices.
+if(matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion:reduce)').matches){
+ const art=$('.hero-art');
+ window.addEventListener('mousemove',e=>{
+   if(!art) return;
+   const px=(e.clientX/innerWidth-.5)*8, py=(e.clientY/innerHeight-.5)*6;
+   art.style.transform=`translate3d(${px*.35}px,${py*.35}px,0)`;
+ },{passive:true});
+}
+</script>
+</body></html>
